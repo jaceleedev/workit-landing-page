@@ -1,7 +1,56 @@
+@font-face {
+  font-family: 'Fraunces 144pt';
+  src: url('./assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf')
+    format('truetype');
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('./assets/fonts/manrope/Manrope-VariableFont_wght.ttf')
+    format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
 :root {
   --color-dark-purple: #24053e;
   --color-eucaplyptus: #44ffa1;
   --color-davys-grey: #584d62;
   --color-ghost-White: #fcf8ff;
   --color-white: #ffffff;
+}
+
+/* Typography */
+.heading-l {
+  font-family: 'Fraunces 144pt', sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+}
+
+.heading-m {
+  font-family: 'Fraunces 144pt', sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+.heading-s {
+  font-family: 'Fraunces 144pt', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+body {
+  font-family: Manrope, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
 }
